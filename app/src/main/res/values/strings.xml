@@ -44,5 +44,6 @@
     <string name="choiceType">Choice Type</string>
     <string name="pType">Payment Type</string>
     <string name="descVal">Description Value</string>
+    <string name="descriptions">Descriptions</string>
 
 </resources>

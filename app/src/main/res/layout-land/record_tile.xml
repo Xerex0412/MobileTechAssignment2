@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/recordTileLayout"
-        android:layout_width="377dp"
-        android:layout_height="182dp"
+        android:layout_width="714dp"
+        android:layout_height="189dp"
         android:background="@drawable/empty_border"
         android:orientation="vertical"
         android:padding="15dp"
@@ -23,11 +23,11 @@
             android:id="@+id/dateText"
             android:layout_width="match_parent"
             android:layout_height="42dp"
+            android:text="@string/DateText"
+            android:padding="5dp"
             android:background="@drawable/border"
             android:fontFamily="@font/autour_one"
             android:gravity="center_vertical"
-            android:padding="5dp"
-            android:text="@string/DateText"
             android:textAlignment="viewStart"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -42,21 +42,21 @@
                 android:id="@+id/amountText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8sp"
-                android:layout_weight="1"
                 android:background="@drawable/border"
                 android:fontFamily="@font/autour_one"
                 android:gravity="center_vertical"
+                android:layout_weight="1"
                 android:padding="5dp"
                 android:text="@string/AmountText"
+                android:layout_marginTop="8sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/amountValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8sp"
                 android:layout_weight="1"
+                android:layout_marginTop="8sp"
                 android:text="@string/AmountInput" />
         </LinearLayout>
 
@@ -64,12 +64,12 @@
             android:id="@+id/categoryText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8sp"
             android:background="@drawable/border"
             android:fontFamily="@font/autour_one"
             android:gravity="center_vertical"
-            android:padding="5dp"
+            android:layout_marginTop="8sp"
             android:text="@string/CategoryText"
+            android:padding="5dp"
             android:textAlignment="viewStart"
             android:textStyle="bold" />
 
@@ -77,8 +77,8 @@
             android:id="@+id/categoryValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8sp"
             android:text="@string/categoryType"
+            android:layout_marginTop="8sp"
             android:textAlignment="viewStart" />
 
 
